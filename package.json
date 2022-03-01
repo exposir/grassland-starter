@@ -7,7 +7,7 @@
     "vitepress": "^0.22.3"
   },
   "scripts": {
-    "build": "node index.js && vitepress build docs"
+    "build": "node index.js && vitepress build docs &&  cp -r docs/.vitepress/dist/  ./public/"
   },
   "dependencies": {
     "grassland-core": "^0.0.4"
